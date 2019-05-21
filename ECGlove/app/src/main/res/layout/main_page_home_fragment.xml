@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainPageActivity">
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:padding="8dp"
+        android:src="@drawable/homescreen_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Standard ECG"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Quick and easy measuring\nto see how your heart is doing"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_fragment_button"
+        android:text="Record now"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_view_records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_fragment_button"
+        android:text="View latest recordings"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

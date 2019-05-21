@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/item_home"
+            android:title="Home" />
+
+    </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group2">
+        <item
+            android:id="@+id/item_my_profile"
+            android:title="My Profile" />
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/group3">
+        <item
+            android:id="@+id/item_settings"
+            android:title="Settings" />
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/group4">
+        <item
+            android:id="@+id/item_support"
+            android:title="Support" />
+    </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group5">
+        <item
+
+            android:id="@+id/item_terms_conditions"
+            android:title="Terms and Conditions" />
+    </group>
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/group6">
+        <item
+            android:id="@+id/item_log_out"
+            android:title="Log Out" />
+    </group>
+
+
+</menu>
